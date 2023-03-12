@@ -12,5 +12,8 @@ public class ProductAppApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	@Test
+	public void contextLoads2() {
+	}
 
 }
