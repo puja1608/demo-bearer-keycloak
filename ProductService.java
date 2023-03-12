@@ -10,4 +10,7 @@ public class ProductService{
     public List<String> getProducts(){
         return Arrays.asList("Nissan","Mazda");
     }
+    public List<String> getProductsList(){
+        return Arrays.asList("Nissan","Mazda","new");
+    }
 }
