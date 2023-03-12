@@ -30,6 +30,7 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
 	@Bean
 	@Override
 	protected SessionAuthenticationStrategy sessionAuthenticationStrategy() {
+		System.out.println("in session authentication strategy");
 		return new NullAuthenticatedSessionStrategy();
 	}
 
