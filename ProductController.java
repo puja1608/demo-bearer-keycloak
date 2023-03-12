@@ -19,6 +19,10 @@ public class ProductController {
 	public List<String> getProducts(){
 		return productService.getProducts();
 	}
+	@PostMapping(path = "/products/list")
+	public List<String> getProductsList(){
+		return productService.getProducts();
+	}
 
 	@GetMapping(path = "/logout")
 	public String logout(HttpServletRequest request) throws ServletException {
